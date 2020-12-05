@@ -1,0 +1,60 @@
+
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+.navbar{
+    background-color: white;
+    box-shadow:2px;
+}
+
+#headertitle{
+    text-decoration: none;
+    color:black;
+    font-family:'Libre Baskerville', sans-serif;
+}
+header{
+    padding:5px;
+    margin-top:2rem;
+    margin-left:8rem;
+}
+
+
+nav{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.3);
+}
+
+nav span{
+    float:right;
+}
+
+.row-with-wide-cards .card{
+    width:
+  }
+
+  .btn-dark{
+      background-color:;
+  }
+
+  .banner{
+    padding:50px 0 50px 0;
+
+  }
+
+  .card-columns{
+      padding-bottom:px;
+  }
+
+  .nextBanner{
+      margin:0 20 120 50px;
+  }
+
+  #biometrics{
+      padding:50px 0 0 0;
+  }
+
+  #gender{
+      padding:0 0 20rem 0;
+  }
