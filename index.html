@@ -16,6 +16,11 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@600&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+
 
   <title>Journal Fit</title>
 </head>
@@ -23,7 +28,7 @@
 <body>
 
   <!--Login Button-->
-  <nav class="navbar navbar-expand-sm  sticky-top" id="navMenu">
+  <nav class="navbar navbar-expand  sticky-top" id="navMenu">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="journalFit">
         <span class="navbar-text mr-auto">
@@ -32,8 +37,9 @@
           </a>
         </span>
         <span class="navbar-text ml-auto">
+          <a role="button" href="about.html">About Us</a>
           <a role="button" id="loginButton" data-toggle="modal" data-target="#loginModal">
-            <i class="fa fa-sign-in"></i>LOGIN
+            LOGIN
           </a>
         </span>
       </div>
@@ -49,6 +55,7 @@
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
+
           <div class="container-fluid">
             <form>
               <div class="form-row">
@@ -80,39 +87,43 @@
   </div>
 
   <!--Home Page Content-->
-  <div class="container">
+  <div class="container-fluid">
+    <div class="container banner">
+      <div class="row ">
+        <div class="col-md-6 fadeInUp">
+          <h2>It's time,<br> your fitness journey begins here!</h2><br>
+          <p> Lorem ipsum dolor sit amet, sit choro dolorum ad. Ut antiopam gloriatur sea, ea mea dolorum accusata,
+            at appareat adversarium duo. Veri quaerendum neglegentur vix at. Eu usu suas falli.</p><br><br>
 
-    <div class="media">
-      <div class="media-body align-self-center">
-        <h2 class="media-heading">It's time, your fitness journey begins here!</h2><br>
-        <p> Lorem ipsum dolor sit amet, sit choro dolorum ad. Ut antiopam gloriatur sea, ea mea dolorum accusata,
-          at appareat adversarium duo. Veri quaerendum neglegentur vix at. Eu usu suas falli.</p><br><br>
+          <div class="text-center">
+            <a role="button" class="btn btn-dark btn-lg" href="#selectJourney">START JOURNAL</a>
+          </div><br><br><br><br>
 
-        <div class="text-center">
-          <a role="button" class="btn btn-dark btn-lg" href="#signup1">START JOURNAL</a>
-        </div><br><br><br><br><br><br>
+          <div class="text-center">
+            <h5>Follow Our Socials</h5><br>
+            <a href="http://instagram.com/"><i class="fa fa-4x fa-fw fa-instagram" style="color:#0bddf0"></i></a>
+            <a href="http://facebook.com/"><i class="fa fa-4x fa-fw fa-facebook" style="color:#0bddf0"></i></a>
+            <a href="http://twitter.com/"><i class="fa fa-4x fa-fw fa-twitter" style="color:#0bddf0"></i></a>
+          </div>
+        </div>
 
-        <div class="text-center">
-          <h5>Follow Our Socials</h5><br>
-          <a href="http://instagram.com/"><i class="fa fa-4x fa-fw fa-instagram" style="color:#0bddf0"></i></a>
-          <a href="http://facebook.com/"><i class="fa fa-4x fa-fw fa-facebook" style="color:#0bddf0"></i></a>
-          <a href="http://twitter.com/"><i class="fa fa-4x fa-fw fa-twitter" style="color:#0bddf0"></i></a>
+        <div class="col-md-6">
+          <div class="media-right">
+            <img class="img-fluid media-object fadeInRight" style="width:650px" src="img/pexels-pixabay-260352.jpg" alt="dumbbells">
+          </div>
         </div>
 
       </div>
-
-      <div class="media-right">
-        <img class="d-flex media-object" style="width:650px" src="img/pexels-pixabay-260352.jpg" alt="dumbbells">
-      </div>
     </div>
   </div>
+
   <br><br><br>
   <hr>
 
 
 
   <!--SignUp Page 1 Content-->
-  <div class="container-fluid text-center banner" id="signup1"><br><br>
+  <div class="container-fluid text-center banner" id="selectJourney"><br><br>
     <h2>Select Your Journey</h2>
   </div>
 
@@ -131,13 +142,7 @@
       </div>
 
       <div class="card">
-        <img class="card-img-top" src="img/pexels-scott-webb-28080.jpg" alt="female ropes image">
-        <div class="card-body"></div>
-        <div class="card-title text-center">
-          <h4>Weight Loss</h4>
-        </div>
-        <div class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-          ut labore et dolore magna aliqua. </div>
+        <img class="card-img-top" src="img/pexels-scott-webb-28080.jpg" alt="female ropes image"> 
         <div class="card-footer text-center"><button type="button"
             class="btn btn-sm btn-dark stretched-link">Select</button></div>
       </div>
@@ -154,10 +159,13 @@
             class="btn btn-sm btn-dark stretched-link">Select</button></div>
       </div>
     </div>
-
     <br><br><br><br>
-    <div class="text-right nextButton">
-      <a role="button" class="btn btn-dark btn-lg" href="#signup2">NEXT</a><br>
+
+<div class="container">
+    <div class="col-12 text-right nextButton">
+      <a role="button" class="btn btn-dark btn-lg" href="#index.html">Back</a>
+      <a role="button" class="btn btn-dark btn-lg" href="#biometrics">Next</a><br>
+      </div>
     </div>
   </div>
   <hr>
@@ -165,39 +173,40 @@
 
 
   <!--SignUp Page 2 Content-->
-  <div class="container-fluid text-center banner" id="signup2">
+  <div class="jumbotron jumbotron-fluid"></div>
+  <div class="container-fluid text-center banner" id="biometrics">
     <h2>Enter Your Biometric's</h2>
   </div>
-
+<div class="container">
   <div class="container fluid text-center">
     <div>
       <form>
         <div class="form-group row">
-          <label for="age" class="col-md-2 col-form-label"><strong>Age</strong></label>
-          <div class="col-md-3">
-            <input type="number" class="form-control" id="age" name="age" placeholder="enter your age " />
+          <label for="age" class="col-md-2 col-form-label"><strong></strong></label>
+          <div class="col text-center">
+            <input type="number" class="form-control" id="age" name="age" placeholder="Age" />
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="height" class="col-md-2 col-form-label"><strong>Height</strong></label>
-          <div class="col-md-3">
-            <input type="number" class="form-control" id="height" name="height" placeholder="ft." />
+          <label for="height" class="col-md-2 col-form-label"><strong></strong></label>
+          <div class="col col-xs-3 col-md-5">
+            <input type="number" class="form-control" id="height" name="height" placeholder="Height (ft.)" />
           </div>
 
-          <div class="col-3">
-            <input type="number" class="form-control" name="height" placeholder="inches" />
+          <div class="col col-xs-3 col-md-5">
+            <input type="number" class="form-control" name="height" placeholder="Height (in.)" />
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="weight" class="col-md-2 col-form-label"><strong>Weight</strong></label>
-          <div class="col-3 col-md-3">
-            <input type="number" class="form-control" id="weight" name="weight" placeholder="lb's" />
+          <label for="weight" class="col-md-2 col-form-label"><strong></strong></label>
+          <div class=" col col-xs-3 col-md-5">
+            <input type="number" class="form-control" id="weight" name="weight" placeholder="Weight (lb's)" />
           </div>
 
-          <div class="col-3">
-            <input type="number" class="form-control" name="weight" placeholder="oz's" />
+          <div class="col col-xs-3 col-md-5">
+            <input type="number" class="form-control" name="weight" placeholder="Weight (oz's)" />
           </div>
         </div>
     </div>
@@ -217,51 +226,53 @@
     </div>
     </form><br><br><br>
   </div>
-  <div class="text-right nextButton">
-    <a role="button" class="btn btn-dark btn-lg" href="#">NEXT</a>
+</div>
+  <div class="text-right nextButton col-9 text-right nextButton">
+    <a role="button" class="btn btn-dark btn-lg" href="#selectJourney">Back</a>
+    <a role="button" class="btn btn-dark btn-lg" href="#almostDone">Next</a>
   </div>
   <hr>
   <!--End Page 2-->
 
 
   <!--SignUp Page 3 Content-->
-  <div class="container-fluid text-center banner">
-    <h2>Personal information</h2>
+  <div class="container-fluid text-center banner" id="almostDone">
+    <h2>Almost Done!</h2>
   </div>
 
 
   <div class="container">
     <form>
       <div class="form-group row">
-        <label for="firstName" class="col-md-2 col-form-label"><strong>First Name</strong></label>
-        <div class="col-3">
+        <label for="firstName" class="col-md-2 col-form-label"><strong></strong></label>
+        <div class="col">
           <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
         </div>
       </div>
       <div class="form-group row">
-        <label for="lastName" class="col-md-2 col-form-label"><strong>Last Name</strong></label>
-        <div class="col-md-3">
+        <label for="lastName" class="col-md-2 col-form-label"><strong></strong></label>
+        <div class="col">
           <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
         </div>
       </div>
       <div class="form-group row">
-        <label for="areaCode" class="col-md-2 col-form-label"><strong>Contact Tel.</strong></label>
-        <div class="col col-md-3">
-          <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+        <label for="areaCode" class="col-md-2 col-form-label"><strong></strong></label>
+        <div class="col col-xs-3 col-md-2">
+          <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area" />
         </div>
-        <div class="col-3">
-          <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+        <div class="col col-xs-3 col-md-8">
+          <input type="tel" class="form-control" name="telNum" placeholder="Contact number" />
         </div>
       </div>
       <div class="form-group row">
-        <label for="email" class="col-md-2 col-form-label"><strong>Email</strong></label>
-        <div class="col-md-6">
+        <label for="email" class="col-md-2 col-form-label"><strong></strong></label>
+        <div class="col">
           <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
         </div>
       </div>
       <div class="form-group row">
         <div class="col offset-md-2">
-         <strong>Would you like receive texts updates?</strong>
+          <strong>Would you like to receive text updates?</strong>
           <div class="form-check form-check-inline">
             <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes" />
             <label for="contactYes" class="form-check-label">Yes</label>
@@ -279,8 +290,9 @@
     </div>
   </div>
 
-  <div class="text-right nextButton">
-    <a role="button" class="btn btn-dark btn-lg" href="#">NEXT</a>
+  <div class="col-9 text-right nextButton">
+    <a role="button" class="btn btn-dark btn-lg" href="#">Back </a>
+    <a role="button" class="btn btn-dark btn-lg" href="#">Sign Up</a>
   </div>
   <hr>
   <!--End Page 3-->

@@ -28,33 +28,64 @@ nav{
 
 nav span{
     float:right;
+
 }
-
-.row-with-wide-cards .card{
-    width:
-  }
-
-  .btn-dark{
-      background-color:;
-  }
-
-  .banner{
-    padding:50px 0 50px 0;
-
-  }
-
-  .card-columns{
-      padding-bottom:px;
-  }
-
-  .nextBanner{
-      margin:0 20 120 50px;
-  }
-
-  #biometrics{
-      padding:50px 0 0 0;
-  }
 
   #gender{
       padding:0 0 20rem 0;
   }
+
+  @media (min-width: 400px) {
+    left: 50px;
+  }
+
+  @media (min-width: 600px) {
+    left: 100px;
+  }
+
+  .banner{
+      padding: 100px 0px;
+
+  }
+
+  .jumbotron{
+      background-image: url("/img/jumbotron.jpg");
+      background-size:cover;
+      background-position:center;
+  }
+
+.fadeInRight{
+    animation:fadeInRight 2s;
+}
+
+
+@keyframes fadeInRight {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.fadeInUp{
+    animation:fadeInUp 3s;
+    margin-top:200px;
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+.card:hover{
+    content:"Weight Loss Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt";
+    color:white;
+    opacity:50;
+    background-color:black;
+    z-index:1;
+}
