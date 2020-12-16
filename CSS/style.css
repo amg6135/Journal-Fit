@@ -14,6 +14,7 @@ body{
     text-decoration: none;
     color:black;
     font-family:'Libre Baskerville', sans-serif;
+    
 }
 header{
     padding:5px;
@@ -28,7 +29,21 @@ nav{
 
 nav span{
     float:right;
+    
 
+}
+
+nav span a{
+    color:black;
+    text-decoration: none;
+    list-style: none;
+    padding-right:20px;
+}
+
+nav span a:hover{
+    color:black;
+    text-decoration: none;
+    list-style: none;
 }
 
   #gender{
@@ -43,15 +58,12 @@ nav span{
     left: 100px;
   }
 
-  .banner{
-      padding: 100px 0px;
-
-  }
-
   .jumbotron{
+      margin:0px;
       background-image: url("/img/jumbotron.jpg");
       background-size:cover;
       background-position:center;
+      height:200px;
   }
 
 .fadeInRight{
@@ -70,7 +82,12 @@ nav span{
 
 .fadeInUp{
     animation:fadeInUp 3s;
-    margin-top:200px;
+    margin-top:100px;
+}
+
+.fadeIn{
+    animation:fadeIn 2s;
+    margin-top:px;
 }
 
 @keyframes fadeInUp{
@@ -82,10 +99,62 @@ nav span{
     }
 }
 
+
 .card:hover{
     content:"Weight Loss Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt";
     color:white;
     opacity:50;
-    background-color:black;
+    background-color:rgba(0, 0, 0, 0.03);
     z-index:1;
+}
+
+
+#biometrics{
+    margin:-100px 0px 0px 0px;
+}
+
+.media-object{
+    width:600px;
+}
+
+.media-body{
+    margin-top:100px;
+}
+
+
+.site-footer{
+    background-color:rgba(0, 0, 0, 0.85);
+    padding:50px;
+}
+
+.footer li a{
+    list-style:none;
+    text-decoration: none;
+    color:white;
+}
+
+.footer li a i{
+    color:white;
+}
+
+.icons a i{
+    color:#0bddf0;
+}
+
+.icons a i:hover{
+    color:white;
+}
+
+.footersupport{
+    color:white;
+}
+
+
+.card:hover{
+    background-color::rgba(0, 0, 0, 0.85);
+    content:"LOREM IPSUM";
+}
+
+#navmenu2 div span a{
+    background-color:rgba(0, 0, 0, 0.85);
 }
