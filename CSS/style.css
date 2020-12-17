@@ -94,7 +94,7 @@ nav span a:hover{
 }
 
 
-.card:hover{
+.signUp1:hover{
     content:"Weight Loss Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt";
     color:white;
     opacity:50;
@@ -135,20 +135,47 @@ nav span a:hover{
     color:#0bddf0;
 }
 
+.iconsblog a i{
+    color:#0bddf0;
+}
+
+.iconsblog2 a i{
+    color:black;
+
+}
+
 .icons a i:hover{
     color:white;
+}
+.iconsblog a i:hover{
+    color:black;
 }
 
 .footersupport{
     color:white;
 }
 
-
-.card:hover{
-    background-color:rgba(0, 0, 0, 0.85);
-    content:"LOREM IPSUM";
-}
-
-#navmenu2 div span a{
-    background-color:rgba(0, 0, 0, 0.85);
-}
+.left-column{
+    float: left;
+    width: 75%;	
+    }
+    
+    .right-column{
+     width: 25%;
+     float: right;
+     padding-left:20px;
+    }
+    .card{
+        padding: 20px;
+        background-color: #ffffff;
+     margin-top:20px;
+    }
+    
+    .card img{
+        width: 100%;
+    }
+    
+    
+    .right-column .card img{
+        margin-bottom: 10px;
+    }
