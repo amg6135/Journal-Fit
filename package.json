@@ -17,12 +17,14 @@
     "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url":"git+https://github.com/amg6135/Journal-Fit.git"
   },
   "author": "Andrea G",
   "license": "ISC",
   "devDependencies": {
     "copyfiles": "^2.2.0",
+    "imagemin": "^5.1.0",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.5.4",
     "node-sass": "^4.14.1",

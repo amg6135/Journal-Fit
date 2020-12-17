@@ -50,17 +50,11 @@ nav span a:hover{
       padding:0 0 20rem 0;
   }
 
-  @media (min-width: 400px) {
-    left: 50px;
-  }
-
-  @media (min-width: 600px) {
-    left: 100px;
-  }
+  
 
   .jumbotron{
       margin:0px;
-      background-image: url("/img/jumbotron.jpg");
+      background-image: url("../img/jumbotron.jpg");
       background-size:cover;
       background-position:center;
       height:200px;
@@ -151,7 +145,7 @@ nav span a:hover{
 
 
 .card:hover{
-    background-color::rgba(0, 0, 0, 0.85);
+    background-color:rgba(0, 0, 0, 0.85);
     content:"LOREM IPSUM";
 }
 
